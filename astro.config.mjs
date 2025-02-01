@@ -39,7 +39,7 @@ export default defineConfig({
 	adapter: cloudflare(),
 	vite: {
 		ssr: {
-		  external: ['node:stream'],
+		  noExternal: ['node'],
 		},
 	  },
 })
