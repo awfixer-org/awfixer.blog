@@ -1,7 +1,8 @@
 ---
 import { siteConfig } from '@/site-config'
 import '../styles/global.css'
-import { ViewTransitions } from 'astro:transitions'
+import { ClientRouter } from 'astro:transitions'
+import { join } from 'node:path'
 
 export interface Props {
 	title: string
@@ -35,7 +36,7 @@ import { AstroFont } from 'astro-font'
 <title>{siteTitle}</title>
 
 <!-- ViewTransitions  -->
-<ViewTransitions />
+<ClientRouter />
 
 <!-- SEO -->
 <meta name='title' content={siteTitle} />
