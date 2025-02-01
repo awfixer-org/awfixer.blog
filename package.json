@@ -22,7 +22,7 @@
 	"scripts": {
 		"dev": "npx tinacms dev -c \"astro dev\"",
 		"start": "astro dev",
-		"build": "astro build",
+		"build": "npx tinacms build -c \"astro build\"",
 		"sync": "astro sync",
 		"preview": "wrangler pages dev ./dist",
 		"postbuild": "pagefind --site dist",
