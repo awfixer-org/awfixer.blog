@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind'
 import { remarkReadingTime } from './src/utils/readTime.ts'
 import { siteConfig } from './src/data/site.config'
 
-import cloudflare from '@astrojs/cloudflare'
+// import cloudflare from '@astrojs/cloudflare'
 
 // https://astro.build/config
 export default defineConfig({
@@ -35,8 +35,8 @@ export default defineConfig({
 		sitemap(),
 		tailwind()
 	],
-	output: 'server',
-	adapter: cloudflare(),
+	// output: 'server',
+	// adapter: cloudflare(),
 	vite: {
 		ssr: {
 			external: ['node:path']
