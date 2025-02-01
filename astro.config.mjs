@@ -35,6 +35,6 @@ export default defineConfig({
 		sitemap(),
 		tailwind()
 	],
-
+	output: 'server',
 	adapter: cloudflare()
 })
