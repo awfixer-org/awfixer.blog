@@ -13,12 +13,6 @@ import node from '@astrojs/node'
 export default defineConfig({
 	site: siteConfig.site,
 
-	vite: {
-		ssr: {
-			external: ['node:buffer']
-		}
-	},
-
 	markdown: {
 		remarkPlugins: [remarkReadingTime],
 		drafts: true,
