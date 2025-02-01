@@ -3,6 +3,9 @@ import BaseLayout from '@/layouts/BaseLayout'
 import ListPosts from '@/components/ListPosts'
 import TitlePage from '@/components/TitlePage'
 import { getTags, getPostByTag } from '@/utils'
+type Props = {
+	tag: string
+}
 
 export async function getStaticPaths() {
 	const tags = await getTags()
@@ -19,6 +22,6 @@ const posts = await getPostByTag(tag)
 ---
 
 <BaseLayout title={tag}>
-	<TitlePage title={tag} />
+	<TitlePage title={tag ?? ''} />
 	<ListPosts posts={posts} />
 </BaseLayout>

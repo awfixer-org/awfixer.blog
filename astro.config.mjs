@@ -36,10 +36,5 @@ export default defineConfig({
 		tailwind()
 	],
 	output: 'server',
-	adapter: cloudflare(),
-	vite: {
-		ssr: {
-		  noExternal: true,
-		},
-	  },
+	adapter: cloudflare()
 })

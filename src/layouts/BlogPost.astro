@@ -13,7 +13,7 @@ type Props = {
 	readTime: string
 }
 
-const { data, readTime, headings, id } = Astro.props
+const { data, readTime } = Astro.props
 const { title, description, pubDate, heroImage, tags } = data
 
 const articleDate = pubDate.toISOString()
@@ -46,7 +46,7 @@ const articleDate = pubDate.toISOString()
 			</div>
 		</header>
 
-		<>
+		<div>
 			{
 				heroImage && (
 					<Image
@@ -61,7 +61,7 @@ const articleDate = pubDate.toISOString()
 					/>
 				)
 			}
-		</>
+		</div>
 
 		<hr />
 
@@ -75,7 +75,7 @@ const articleDate = pubDate.toISOString()
 	const fnObserver = () => {
 		function handleIntersection(
 			entries: IntersectionObserverEntry[],
-			observer: IntersectionObserver
+			_observer: IntersectionObserver
 		) {
 			entries.forEach((entry) => {
 				const index = document.querySelector(`aside a[href="#${entry.target.id}"]`)
