@@ -7,8 +7,6 @@ import { siteConfig } from './src/data/site.config'
 
 import cloudflare from '@astrojs/cloudflare'
 
-import node from '@astrojs/node'
-
 // https://astro.build/config
 export default defineConfig({
 	site: siteConfig.site,
