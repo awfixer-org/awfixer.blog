@@ -38,7 +38,6 @@ export default defineConfig({
       tailwind()
     ],
 
-  adapter: node({
-    mode: 'standalone'
+  adapter: cloudflare()
   })
 })
