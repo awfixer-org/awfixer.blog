@@ -36,5 +36,10 @@ export default defineConfig({
 		tailwind()
 	],
 	output: 'server',
-	adapter: cloudflare()
+	adapter: cloudflare(),
+	vite: {
+		ssr: {
+		  external: ['node:stream'],
+		},
+	  },
 })
