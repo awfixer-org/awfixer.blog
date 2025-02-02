@@ -10,3 +10,19 @@
         A News and Information Blog
     </h3>
 </div>
+
+<h2>
+  Blog Content Policy
+</h2>
+
+<details>
+
+<summary>Click to expand</summary>
+
+<p>
+
+test
+
+</p>
+
+</details>
