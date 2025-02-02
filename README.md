@@ -144,6 +144,22 @@ Test
 <div align="center">
     <h1>【 Funding Center 】</h1>
     <h3>
-        A list of features that we are working on for the blog and ones that we have already implemented
+        This blog has no ads, and we want to keep it that way. Please consider donating to help keep the blog running
     </h3>
 </div>
+
+<div align="center">
+
+<h2>
+
+    You can donate to us using the following services:
+
+</h2>
+
+</div>
+
+[Ko-Fi](https://ko-fi.com/awfixer)
+
+[Patreon](https://patreon.com/awfixer)
+
+[Github Sponsors](https://github.com/sponsors/awfixer)
