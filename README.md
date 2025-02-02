@@ -203,5 +203,5 @@ if you need to contact him, you can do so on Discord in the <a href="https://dis
     <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Support us on Patreon">
 
 <h3>
-    <a href="https://github.com/sponsors/awfixer>Github</a>
+    <a href="https://github.com/sponsors/awfixer">Github</a>
 </h3>
