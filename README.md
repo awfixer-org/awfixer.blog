@@ -11,17 +11,6 @@
     </h3>
 </div>
 
-<div align="center">
-
-<p>
-
-This blog is written in Astro and hosted on Cloudflare using Pages and Workers. It uses TinaCMS and R2 for content
-management. we use Git as our SCM hosted on Github.
-
-</p>
-
-</div>
-
 <h2>
   Blog Content Policy
 </h2>
@@ -103,66 +92,8 @@ also want to respect the privacy of our readers and not share their information
 </details>
 
 <div align="center">
-
     <h1>【 Feature Center 】</h1>
-
     <h3>
         A list of features that we are working on for the blog and ones that we have already implemented
     </h3>
-
 </div>
-
-<h2>
-    Feature: Dark Mode
-</h2>
-
-<details>
-
-<summary>Click to Read More</summary>
-
-<p>
-
-This feature has been implimented
-
-</p>
-
-</details>
-
-<h2>
-
-</h2>
-
-<details>
-
-<summary>Click to Read More</summary>
-
-<p>
-
-Test
-
-</p>
-
-</details>
-
-<div align="center">
-    <h1>【 Funding Center 】</h1>
-    <h3>
-        This blog has no ads, and we want to keep it that way. Please consider donating to help keep the blog running
-    </h3>
-</div>
-
-<div align="center">
-
-<h2>
-
-    You can donate to us using the following services:
-
-</h2>
-
-</div>
-
-[Ko-Fi](https://ko-fi.com/awfixer)
-
-[Patreon](https://patreon.com/awfixer)
-
-[Github Sponsors](https://github.com/sponsors/awfixer)
