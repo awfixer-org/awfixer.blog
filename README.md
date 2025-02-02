@@ -17,7 +17,7 @@
 
 <details>
 
-<summary>Click to expand</summary>
+<summary>Click to Read More</summary>
 
 <p>
 
@@ -35,7 +35,7 @@ discord.gg/awfixer to discuss any ideas you have for a blog post.
 
 <details>
 
-<summary>Click to expand</summary>
+<summary>Click to Read More</summary>
 
 <p>
 
@@ -53,7 +53,7 @@ at the top of this repo
 
 <details>
 
-<summary>Click to expand</summary>
+<summary>Click to Read More</summary>
 
 <p>
 
@@ -75,7 +75,7 @@ AI Gateway to manage AI translations between hosted Workers-AI and End Users.
 
 <details>
 
-<summary>Click to expand</summary>
+<summary>Click to Read More</summary>
 
 <p>
 
@@ -90,3 +90,10 @@ also want to respect the privacy of our readers and not share their information
 </p>
 
 </details>
+
+<div align="center">
+    <h1>【 Feature Center 】</h1>
+    <h3>
+        A list of features that we are working on for the blog and ones that we have already implemented
+    </h3>
+</div>
