@@ -103,10 +103,13 @@ also want to respect the privacy of our readers and not share their information
 </details>
 
 <div align="center">
+
     <h1>【 Feature Center 】</h1>
+
     <h3>
         A list of features that we are working on for the blog and ones that we have already implemented
     </h3>
+
 </div>
 
 <h2>
