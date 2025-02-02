@@ -11,7 +11,7 @@
     </h3>
 </div>
 
-<div align="justified">
+<div align="center">
 
 <p>
 
