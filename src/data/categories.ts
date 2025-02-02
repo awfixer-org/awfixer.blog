@@ -13,5 +13,10 @@ export const CATEGORIES = [
 	'Film',
 	'GitHub',
 	'Programming',
-	'Community'
+	'Community',
+	'autism',
+	'mental health',
+	'disability',
+	'adhd',
+	'nerodiversity'
 ] as const
