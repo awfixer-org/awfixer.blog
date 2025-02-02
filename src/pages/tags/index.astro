@@ -3,9 +3,15 @@ import BaseLayout from '@/layouts/BaseLayout'
 import TitlePage from '@/components/TitlePage'
 import { getTags } from '@/utils'
 const tags = await getTags()
+import AnnouncementBanner from '@/components/AnnouncementBanner'
 ---
 
 <BaseLayout title='Tags'>
+	<AnnouncementBanner
+		btnId='dismiss-button'
+		btnTitle='This could have been an ad! Donate on Ko-fi to keep this site Ad-Free!'
+		url='https://ko-fi.com/awfixer'
+	/>
 	<TitlePage title='Tags' />
 	<div class='flex justify-center flex-wrap gap-4'>
 		{
