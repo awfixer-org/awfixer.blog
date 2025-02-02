@@ -11,6 +11,17 @@
     </h3>
 </div>
 
+<div align="justified>
+
+<p>
+
+This blog is written in Astro and hosted on Cloudflare using Pages and Workers. It uses TinaCMS and R2 for content
+management. we use Git as our SCM hosted on Github.
+
+</p>
+
+</div>
+
 <h2>
   Blog Content Policy
 </h2>
@@ -129,3 +140,10 @@ Test
 </p>
 
 </details>
+
+<div align="center">
+    <h1>【 Funding Center 】</h1>
+    <h3>
+        A list of features that we are working on for the blog and ones that we have already implemented
+    </h3>
+</div>
