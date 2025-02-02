@@ -4,6 +4,7 @@ import ListPosts from '@/components/ListPosts'
 import ListCategories from '@/components/ListCategories'
 import TitlePage from '@/components/TitlePage'
 import { sluglify, unsluglify, getCategories, getPosts } from '@/utils'
+import AnnouncementBanner from '@/components/AnnouncementBanner'
 import { siteConfig } from '@/data/site.config'
 import Pagination from '@/components/Pagination'
 
@@ -36,6 +37,11 @@ const posts = page.data
 ---
 
 <BaseLayout title={categoryName}>
+	<AnnouncementBanner
+		btnId='dismiss-button'
+		btnTitle='This could have been an ad! Donate on Ko-fi to keep this site Ad-Free!'
+		url='https://ko-fi.com/awfixer'
+	/>
 	<TitlePage title={categoryName ?? ''} />
 	<ListCategories activeCategory={params.category} />
 	<ListPosts posts={posts} />
