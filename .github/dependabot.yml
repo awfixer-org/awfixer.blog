@@ -13,7 +13,3 @@ updates:
     directory: .github/
     schedule:
       interval: "daily"
-  - package-ecosystem: "gitsubmodule"
-    directory: .git/
-    schedule:
-      interval: "daily"
