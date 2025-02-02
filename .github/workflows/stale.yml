@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/stale@v5
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.GH_TOKEN }}
         stale-issue-message: 'closed because it went stale. feel free to open a new one'
         stale-pr-message: 'closed because it went stale. feel free to open a new one'
         stale-issue-label: 'stale'
