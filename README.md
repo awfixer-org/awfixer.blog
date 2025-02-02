@@ -97,3 +97,22 @@ also want to respect the privacy of our readers and not share their information
         A list of features that we are working on for the blog and ones that we have already implemented
     </h3>
 </div>
+
+<h2>
+  Login and Registration
+</h2>
+
+<details>
+
+<summary>Click to Read More</summary>
+
+<p>
+
+We are working on a login and registration system for the blog. We are using
+Discord OAuth2 to authenticate users. This system is a work in progress and
+will likely be implemented in the next week. We plan on replacing it with the
+AWFixer SSO system in the future.
+
+</p>
+
+</details>
