@@ -97,3 +97,35 @@ also want to respect the privacy of our readers and not share their information
         A list of features that we are working on for the blog and ones that we have already implemented
     </h3>
 </div>
+
+<h2>
+    Feature: Dark Mode
+</h2>
+
+<details>
+
+<summary>Click to Read More</summary>
+
+<p>
+
+This feature has been implimented
+
+</p>
+
+</details>
+
+<h2>
+
+</h2>
+
+<details>
+
+<summary>Click to Read More</summary>
+
+<p>
+
+Test
+
+</p>
+
+</details>
