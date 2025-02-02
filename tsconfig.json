@@ -13,7 +13,7 @@
 		"esModuleInterop": true,
 		"skipLibCheck": true,
 		"allowJs": true,
-		"jsx": "preserve",
+		"jsx": "react-jsx",
 		"strictNullChecks": true,
 		"baseUrl": ".",
 		"verbatimModuleSyntax": true,
@@ -24,7 +24,8 @@
 			"@/data/*": ["src/data/*"],
 			"@/site-config": ["src/data/site.config.ts"],
 			"@/styles": ["src/styles/"]
-		}
+		},
+		"jsxImportSource": "react"
 	},
 	"exclude": ["node_modules", "**/node_modules/*", ".vscode", "dist", "${configDir}/dist"],
 	"include": ["${configDir}/.astro/types.d.ts", "${configDir}/**/*"]

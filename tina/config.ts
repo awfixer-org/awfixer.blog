@@ -2,7 +2,7 @@ import { CATEGORIES } from '../src/data/categories.ts'
 import { defineConfig } from 'tinacms'
 
 // Your hosting provider likely exposes this as an environment variable
-const branch = 'master'
+const branch = process.env.HEAD || 'main'
 
 export default defineConfig({
 	branch,
