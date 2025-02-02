@@ -141,3 +141,38 @@ if you need to contact him, you can do so on Discord in the <a href="https://dis
 </p>
 
 </details>
+
+<h2>
+  jinx
+</h2>
+
+<details>
+
+<summary>Click to Read More</summary>
+
+<p>
+
+jinx is the spirit of the blog, personified in the form of a co-owner. She can be found in the
+discord server, be aware that she bites.
+
+</p>
+
+</details>
+
+<h2>
+  alasti
+</h2>
+
+<details>
+
+<summary>Click to Read More</summary>
+
+<p>
+
+alasti is the developer of the blog, he is responsible for the backend and the frontend of the blog
+
+if you need to contact him, you can do so on Discord in the <a href="https://discord.gg/awfixer">AWFixer Discord Server</a>
+
+</p>
+
+</details>
