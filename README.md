@@ -176,3 +176,32 @@ if you need to contact him, you can do so on Discord in the <a href="https://dis
 </p>
 
 </details>
+
+<div align="center">
+    <h1>【 Money Center 】</h1>
+    <h3>
+        The goals is for this blog to be user and reader funded. We want to make money, but self sufficiency is the goal before anything else.
+    </h3>
+</div>
+
+<h2>
+  Donations
+</h2>
+
+<h3>
+    Ko-Fi
+</h3>
+
+<a href="https://ko-fi.com/awfixer">
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support us on Ko-Fi">
+
+<h3>
+    Patreon
+</h3>
+
+<a href="https://patreon.com/awfixer">
+    <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Support us on Patreon">
+
+<h3>
+    <a href="https://github.com/sponsors/awfixer>Github</a>
+</h3>
