@@ -1,0 +1,50 @@
+/* /src/components/AuthUser.astro */ // grab values from .env file const { DISCORD_CLIENT_ID,
+DISCORD_REDIRECT } = import.meta.env; // build discord auth url const discord_oauth_url =
+'https://discordapp.com/oauth2/authorize?client_id=' + DISCORD_CLIENT_ID + '&redirect_uri=' +
+DISCORD_REDIRECT + '&scope=identify&response_type=token'; let logoutPage = Astro.props.logoutPage ||
+'/logout';
+<div id='user-logged-out' style='display:none;'>
+	<a href={discord_oauth_url}>Login <i class='fab fa-discord'></i></a>
+</div>
+<div id='user-logged-in' style='display:none;'>
+	<div class='dropdown'>
+		<span class='btn btn-sm btn-secondary dropdown-toggle' data-bs-toggle='dropdown'>
+			<img id='user-avatar' height='28' style='margin:0 0 0 -6px;' />
+			<span id='username'></span>
+		</span>
+		<ul class='dropdown-menu dropdown-menu-end'>
+			<li><a class='dropdown-item' id='action-logout' style='cursor:pointer'>Logout</a></li>
+		</ul>
+	</div>
+</div>
+
+<script
+	src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js'
+	type='text/javascript'></script>
+<script type='text/javascript' define:vars={{ logoutPage }}>
+	var expires = localStorage.getItem('expires') || 0
+	var m_expires = moment(expires)
+	var now = moment()
+	if (now.isBefore(m_expires)) {
+		document.getElementById('user-logged-in').style.display = ''
+		var user = JSON.parse(localStorage.getItem('discord_user'))
+		// document.getElementById('username').innerText = user.username;
+		document.getElementById('user-avatar').src =
+			'https://cdn.discordapp.com/avatars/' + user.id + '/' + user.avatar + '.png'
+	} else {
+		document.getElementById('user-logged-out').style.display = ''
+	}
+	document.getElementById('action-logout').addEventListener('click', function () {
+		localStorage.setItem('discord_user', false)
+		localStorage.setItem('expires', '0')
+		window.location = logoutPage
+	})
+</script>
+
+<style scoped>
+	#user-logged-out a,
+	#user-logged-out a:visited {
+		color: #ffa;
+		text-decoration: none;
+	}
+</style>
