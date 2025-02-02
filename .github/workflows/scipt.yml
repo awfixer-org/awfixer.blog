@@ -3,10 +3,6 @@ name: "Github Sript - replies and labels"
 on:
   issues:
     types: [opened]
-  push:
-  workflow_dispatch:
-  schedule:
-    - 1 * * * *
   pull_request:
     types: [opened]
 
