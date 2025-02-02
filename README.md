@@ -117,6 +117,61 @@ AWFixer SSO system in the future.
 
 </details>
 
+<h2>
+  Comment System
+</h2>
+
+<details>
+
+<summary>Click to Read More</summary>
+
+<p>
+
+we are working on a non-traditional comment system for the blog. We are considering using
+a bot on Discord to manage comments. This system is a work in progress and will likely be
+in development for the next few weeks. We want to be able to announce a post in the discord
+server and the comments in the thread will be posted to the blog post.
+
+</p>
+
+</details>
+
+<h2>
+  Discord Integration
+</h2>
+
+<details>
+
+<summary>Click to Read More</summary>
+
+<p>
+
+we want to integrate the blog with Discord. There are all sorts of ways that we can do this
+both ways, roles, discord subs, and so on, we are working on this and will likely have it done
+in the near future
+
+</p>
+
+</details>
+
+<h2>
+  AI Translation
+</h2>
+
+<details>
+
+<summary>Click to Read More</summary>
+
+<p>
+
+we do not have the time at this point to translate our blog posts into other languages. We are working
+on using an AI system we were developing for another perpose to translate our blog posts into other languages
+for us.
+
+</p>
+
+</details>
+
 <div align="center">
     <h1>【 Maintainers Center 】</h1>
     <h3>
