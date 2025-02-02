@@ -116,3 +116,28 @@ AWFixer SSO system in the future.
 </p>
 
 </details>
+
+<div align="center">
+    <h1>【 Maintainers Center 】</h1>
+    <h3>
+        A list of the maintainers of this blog and their roles, as well as how to contact them.
+    </h3>
+</div>
+
+<h2>
+  austin
+</h2>
+
+<details>
+
+<summary>Click to Read More</summary>
+
+<p>
+
+Austin is the owner of this blog and the main writer. He is also the co-developer of the blog
+
+if you need to contact him, you can do so on Discord in the <a href="https://discord.gg/awfixer">AWFixer Discord Server</a>
+
+</p>
+
+</details>
