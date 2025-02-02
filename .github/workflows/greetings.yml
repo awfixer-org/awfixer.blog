@@ -11,6 +11,6 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.GH_TOKEN }}
         issue-message: "Thank you for your first contribution. if you have any issues reach out on Discord"
         pr-message: "Thank you for your first contribution. if you have any issues reach out on Discord"
