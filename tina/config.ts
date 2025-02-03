@@ -6,18 +6,14 @@ const branch = process.env.HEAD || 'master'
 
 export default defineConfig({
 	branch,
-	clientId: process.env.TINA_TOKEN, // Get this from tina.io
-	token: process.env.NEXT_PUBLIC_TINA_CLIENT_ID, // Get this from tina.io
+	clientId: process.env.PUBLIC_TINA_CLIENT_ID, // Get this from tina.io
+	token: process.env.TINA_TOKEN, // Get this from tina.io
 
 	build: {
 		outputFolder: 'admin',
 		publicFolder: 'public'
 	},
 	media: {
-		// tina: {
-		// 	mediaRoot: '/src/assets/images',
-		// 	publicFolder: 'public'
-		// },
 		loadCustomStore: async () => {
 			const pack = await import('next-tinacms-s3')
 			return pack.TinaCloudS3MediaStore
