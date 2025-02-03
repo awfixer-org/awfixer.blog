@@ -9,7 +9,7 @@ module.exports = {
 	tabWidth: 2,
 	useTabs: true,
 
-	plugins: [require.resolve('prettier-plugin-astro')],
+	plugins: [require.resolve('prettier-plugin-astro'), require.resolve('prettier-plugin-tailwindcss')],
 	overrides: [
 		{
 			files: '*.astro',
