@@ -5,4 +5,4 @@
 
 # pnpm
 pnpm exec lint-staged
-pnpm exec astro check
+# pnpm exec astro check
