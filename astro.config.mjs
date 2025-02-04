@@ -36,7 +36,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
       ssr: {
-          external: ['node:path']
+          external: ['node:path', 'node:stream', 'node:util', 'node:buffer', 'node:fs', 'node:os']
       }
   },
   output: 'server',
