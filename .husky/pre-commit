@@ -1,8 +1,8 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+# Add a Pre Commit Hook
 
 # npm
 # npx lint-staged
 
 # pnpm
 pnpm exec lint-staged
+# pnpm exec astro check
