@@ -1,0 +1,15 @@
+diff --git a/lib/stream.js b/lib/stream.js
+index a0cf44635b9466df6b5bed265325e611998594b0..15b426f88a070877a13795474c6d4bbf5c97ee67 100644
+--- a/lib/stream.js
++++ b/lib/stream.js
+@@ -10,8 +10,8 @@
+  * Module dependencies.
+  */
+ const readingTime = require('./reading-time')
+-const Transform = require('stream').Transform
+-const util = require('util')
++const Transform = require('node:stream').Transform
++const util = require('node:util')
+ 
+ /**
+  * @typedef {import('reading-time').Options} Options

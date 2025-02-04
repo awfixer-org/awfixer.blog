@@ -1,0 +1,13 @@
+diff --git a/dist/handlers.js b/dist/handlers.js
+index c2b19c687e466975d190bca3a00e558ea368b5a8..8809b8dd57e5f3d4ab19d305928678548bff5268 100644
+--- a/dist/handlers.js
++++ b/dist/handlers.js
+@@ -36,7 +36,7 @@ __export(handlers_exports, {
+ module.exports = __toCommonJS(handlers_exports);
+ var import_client_s3 = require("@aws-sdk/client-s3");
+ var import_s3_request_presigner = require("@aws-sdk/s3-request-presigner");
+-var import_path = __toESM(require("path"));
++var import_path = __toESM(require("node:path"));
+ var mediaHandlerConfig = {
+   api: {
+     bodyParser: false
