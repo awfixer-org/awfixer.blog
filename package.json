@@ -48,7 +48,7 @@
 		"next-tinacms-s3": "^9.0.2",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
-		"tinacms": "^1.6.7",
+		"tinacms": "^2.6.2",
 		"vite": "^6.0.11"
 	},
 	"devDependencies": {
