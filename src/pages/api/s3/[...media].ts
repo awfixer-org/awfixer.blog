@@ -43,7 +43,7 @@ export const ALL: APIRoute = async ({ request, locals, params }) => {
 					accessKeyId: process.env.S3_ACCESS_KEY!,
 					secretAccessKey: process.env.S3_SECRET_KEY!
 				},
-				region: process.env.S3_REGION!,
+				region: process.env.S3_REGION! || 'us-east-1',
 				endpoint: process.env.S3_API_ENDPOINT!
 			},
 			bucket: process.env.S3_BUCKET!,
